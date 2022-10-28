@@ -1,0 +1,25 @@
+{
+  "name": "node-pokemon-api",
+  "version": "1.0.0",
+  "description": "an awesome API REST to handle some pokemons",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "THE4",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3",
+    "lodash": "^4.17.21",
+    "mariadb": "^3.0.0",
+    "morgan": "^1.10.0",
+    "save": "^1.0.1",
+    "sequelize": "^6.19.0",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
